@@ -1,0 +1,36 @@
+html {
+    scroll-behavior: smooth;// kullanıcı kaydırılabilir bir kutu içindeki bir bağlantıya tıkladığında,
+                             //düz bir atlama yerine kaydırma konumunun yumuşak bir şekilde canlandırılıp canlandırılmayacağını belirtir.
+}
+
+body {
+    background-color: $dark; 
+    color: $white;
+}
+
+.navbar {
+    border-bottom: $primary 3px solid;
+    opacity: 0.6;
+}
+
+#home {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50%;
+    min-height: 700px;
+
+    .img-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 700px;
+        background: rgba($color: #000000, $alpha: 0.8);
+    }
+}
+
+.home-inner {
+    padding-top: 180px;
+}

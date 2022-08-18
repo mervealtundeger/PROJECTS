@@ -1,0 +1,75 @@
+html {
+    scroll-behavior: smooth;
+}
+.logo{
+    height: 80px;
+    width: 200px;
+}
+.ayir{
+    font-size: 20px;
+    margin: 0px 40px;
+    color: white;
+}
+.nav-bg{
+    background-color:rgb(122, 122, 122,0,356);
+}
+.ust-kisim{
+    background-image: url(img/2.jpg);
+    height: 100vh;
+    width:100% ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.nav-item a{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar-toggler-icon{
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+}
+@media screen and(max-width:992px) {
+    .ayir{
+        display: none;
+
+    }
+    .nav-item:hover{
+        background-color: black;
+    }
+}
+/* tek*/
+.tek{
+    height: 60px;
+}
+.tirnak{
+    color:darkred;
+    font-size: 20px;
+}
+.imza{
+    font-size: 20px;
+}
+.karakter{
+    background-color: rgb(4, 5, 13);
+}
+
+h1{
+    font-style:initial;
+    color:darkblue;
+
+}
+.tec , .har , .kar , .iletisim{
+    background-image: url(img/4.jpg);
+    height: 20vh;
+    width:100% ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.simgeler {
+    font-size: 16px;
+  }
