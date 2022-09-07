@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,7 +17,7 @@
     <div class="kar">
         <nav class="navbar navbar-expand-lg nav-bg">
             <div class="container p-0">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <img class="img-fluid logo" src="img/bir.png" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -27,26 +28,29 @@
                 
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item d-flex align-items-center p-2">
-                            <a  class="nav-link " href="index.html" >Anasayfa</a>
+                        <a class="nav-link" aria-current="page" href="/index.php" >Anasayfa</a><
+                            <span class="ayir">|</span>
+                        </li>
+                        <li class="nav-item d-flex align-items-center p-2">
+                        <a class="nav-link" href="/ayarlar.php?git=karakterler">Karakterler</a>
+
+                            <span class="ayir">|</span>
+                        </li>
+                        <li class="nav-item d-flex align-items-center p-2">
+                        <a class="nav-link" href="/ayarlar.php?git=haritalar">Haritalar</a>
+                            <span class="ayir">|</span>
+                        </li>
+                        <li class="nav-item d-flex align-items-center p-2">
+                        <a class="nav-link" href="ayarlar.php?git=techizat">Teçhizat</a>
                             <span class="ayir">|</span>
                         </li>
 
                         <li class="nav-item d-flex align-items-center p-2">
-                            <a  class="nav-link" href="karakterler.html" >Karakterler</a>
-                            <span class="ayir">|</span>
-                        </li>
-                        <li class="nav-item d-flex align-items-center p-2">
-                            <a  class="nav-link" href="haritalar.html" >Haritalar</a>
-                            <span class="ayir">|</span>
-                        </li>
-                        <li class="nav-item d-flex align-items-center p-2">
-                            <a  class="nav-link" href="techizat.html" >Teçhizat</a>
-                            <span class="ayir">|</span>
-                        </li>
-                        <li class="nav-item d-flex align-items-center p-2">
-                            <a class="nav-link"  href="iletisim.html">İletişim</a>
+                        <a class="nav-link" href="/ayarlar.php?git=iletisim">İletişim</a>
+
                         </li>
                     </ul>
                 </div>
